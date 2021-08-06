@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Suez+One');
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+
+header .header{
+	width: 100%;
+	height: 1000px;
+	background: url(../img/шапка.jpg) no-repeat ;
+	background-size: cover;
+	width: 100%;
+}
+
+.head (min-width: 901px) {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	background-color: #020202;
+	opacity: 0.6;
+}
+
+.head {
+	width: 100%;
+	position: fixed;
+	background-color: #020202;
+	opacity: 0.6;
+}
+
+.logo{
+	color: #fff;
+	font-family: 'MonteCarlo', cursive;
+	font-size: 2em;	
+}
+
+.menu{
+	height: 100%;
+	size: cover;
+	float: right;
+	font-size: 0.5em;
+	list-style: none; 
+  	margin: 0; 
+  	padding-left: 0;
+  	display: flex;
+  	text-align: center;
+}
+.menuli {
+	text-decoration: none;
+	height: 50%;
+	margin: 20px 15px 0px 0px;
+	text-align: center;
+	list-style: none;
+	color: #fff;
+}
+.block1{
+	width: 100%;
+
+	background-color: #262626;
+}
+.blockimgtext{
+	width: 80%;
+	height: 100%;
+	margin: 0px 10% 0px 10%;
+}
+.myphoto{
+	width: 100%;
+	height: 400px;
+
+	max-height: 500px;
+    overflow: hidden;
+    text-align: center;
+}
+.myinf{
+	padding: 0px 0px 30px 0px;
+}
+.myphoto img {
+	width: 400px; height: 400px;
+  	object-fit: cover;
+  	border-radius: 50%;
+  
+  	object-position: center;
+}
+
+.block2 {
+	width: 100%;
+	background-color: #363636;
+}
+
+.skilltext{
+	width: 100%;
+	text-align: center;
+	font-size: 0.75em;
+}
+
+.skillbox{
+	width: 100%;
+	display: flex;
+	object-position: center;
+}
+.row{
+	width: 450px;
+	height: 300px;
+	display: flex;
+	margin:0 auto;
+}
+.html {
+	width: 150px;
+	
+
+	margin: 0px 1% 0px 1%;
+	float: left;
+	display: inline-block;
+}
+.html img {
+	width: 150px;
+	height: 100px;
+}
+
+.java {
+	width: 150px;
+	height: 300px;
+}
+
+.java img {
+	width: 125px;
+	height: 100px;
+	object-position: center;
+}
+
+li{
+	list-style: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.75em;
+}
+
+.python {
+	width: 150px;
+	height: 300px;
+
+}
+.python img{
+	width: 100px;
+	height: 100px;
+}
+
+
+.block3{
+	width: 100%;
+	background-color: #262626;
+}
+
+.list {
+		padding: 0px 0px 30px 0px;
+}
+
+.work{
+	width: 98%;
+	margin: 10px 1% 0px 1%;
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+
+}
+.work img {
+	width: 100px;
+	height: 100px;
+}
+.py img{
+	object-fit: cover;
+  	border-radius: 50%;
+}
+.work iframe{
+
+    width: 100%;
+    height: 100%;
+}
+
+.textwork{
+width: 80%;
+}
+
+.block4{
+	width: 100%;
+
+	background-color: #363636;
+	display: flex;
+
+}
+
+.maincon{
+	width: 50%;
+	margin: 10px 25% 10px 25%;
+	text-align: center;
+}
+
+.contextmain {
+	text-align: center;
+	width: 100%;
+}
+.context{
+	display: flex;
+	object-fit: cover;
+	font-family: 'Raleway', sans-serif;
+
+	padding-top: 0px;
+	justify-content: center;
+}
+
+.context img{
+	margin: 0px 15px 0px 0px;
+}
+
+
+h4{
+	font-size: 1em;
+	text-align: center;
+}
+h5{
+	font-size: 0.65em;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+	color: #fff;
+}
